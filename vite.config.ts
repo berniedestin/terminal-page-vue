@@ -15,3 +15,12 @@ export default defineConfig({
     }
   }
 })
+// formerly in package.json:
+// "scripts": {
+//   "dev": "vite",
+//   "build": "vite build",//"run-p type-check \"build-only {@}\" --",
+//   "preview": "vite preview",
+//   "test:unit": "vitest",
+//   "build-only": "vite build",
+//   "type-check": "vue-tsc --build --force"
+// }
