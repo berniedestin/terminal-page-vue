@@ -18,9 +18,9 @@ onMounted(()=>{
 
 document.addEventListener('keydown',(event)=>{
     const keyValue = event.key;
-    console.log(`cursor is ${cursor == null }`);
-    console.log(`textInput is ${textInput == null }`);
-    console.log(`history is ${history == null }`);
+    // console.log(`cursor is ${cursor == null }`);
+    // console.log(`textInput is ${textInput == null }`);
+    // console.log(`history is ${history == null }`);
     if(cursor == null || textInput == null || history == null){return}
     if(keyValue.length === 1){
         input += keyValue;

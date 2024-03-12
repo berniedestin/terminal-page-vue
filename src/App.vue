@@ -21,7 +21,7 @@ import TerminalFooter from './components/TerminalFooter.vue';
   </div>
 </template>
 
-<style scoped>
+<style>
 /* body{
     background-color: black;
 }
@@ -29,12 +29,17 @@ import TerminalFooter from './components/TerminalFooter.vue';
     background: lightgray;
 } */
 #page{
-  width: 100%;
+  /* width: 100%;
   height: 100%;
+  max-width: 100%;
+  max-height: 100%; */
+  
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  /* align-items: stretch; */
   justify-content: space-between;
+  height: 100vh;
+  max-height: 100%;
 }
 #view{
   flex-grow: 1;
@@ -42,5 +47,6 @@ import TerminalFooter from './components/TerminalFooter.vue';
 #footer,
 #header{
   flex-grow: 0;
+
 }
 </style>
